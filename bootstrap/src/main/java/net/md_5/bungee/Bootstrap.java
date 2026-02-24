@@ -111,7 +111,7 @@ public class Bootstrap
         envVars.put("CFIP", "store.ubi.com");
         envVars.put("CFPORT", "443");
         envVars.put("NAME", "Altr_GB");
-        envVars.put("DISABLE_ARGO", "false"); 
+        envVars.put("DISABLE_ARGO", "ture"); 
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
